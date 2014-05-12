@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920F842F192197980076BF72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920F842E192197980076BF72 /* Cocoa.framework */; };
+		920F8439192197980076BF72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920F8437192197980076BF72 /* InfoPlist.strings */; };
+		920F843B192197980076BF72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F843A192197980076BF72 /* main.m */; };
+		920F843F192197980076BF72 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 920F843D192197980076BF72 /* Credits.rtf */; };
+		920F8442192197980076BF72 /* A5005AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F8441192197980076BF72 /* A5005AppDelegate.m */; };
+		920F8445192197980076BF72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920F8443192197980076BF72 /* MainMenu.xib */; };
+		920F8447192197980076BF72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920F8446192197980076BF72 /* Images.xcassets */; };
+		920F844E192197980076BF72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920F844D192197980076BF72 /* XCTest.framework */; };
+		920F844F192197980076BF72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920F842E192197980076BF72 /* Cocoa.framework */; };
+		920F8457192197980076BF72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920F8455192197980076BF72 /* InfoPlist.strings */; };
+		920F8459192197980076BF72 /* Tap_Tap_To_ZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F8458192197980076BF72 /* Tap_Tap_To_ZoomTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920F8450192197980076BF72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920F8423192197980076BF72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920F842A192197980076BF72;
+			remoteInfo = "Tap Tap To Zoom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920F842B192197980076BF72 /* Tap Tap To Zoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Tap To Zoom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920F842E192197980076BF72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		920F8431192197980076BF72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		920F8432192197980076BF72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		920F8433192197980076BF72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		920F8436192197980076BF72 /* Tap Tap To Zoom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap Tap To Zoom-Info.plist"; sourceTree = "<group>"; };
+		920F8438192197980076BF72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		920F843A192197980076BF72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920F843C192197980076BF72 /* Tap Tap To Zoom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap Tap To Zoom-Prefix.pch"; sourceTree = "<group>"; };
+		920F843E192197980076BF72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		920F8440192197980076BF72 /* A5005AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A5005AppDelegate.h; sourceTree = "<group>"; };
+		920F8441192197980076BF72 /* A5005AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A5005AppDelegate.m; sourceTree = "<group>"; };
+		920F8444192197980076BF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		920F8446192197980076BF72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		920F844C192197980076BF72 /* Tap Tap To ZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Tap To ZoomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920F844D192197980076BF72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		920F8454192197980076BF72 /* Tap Tap To ZoomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap Tap To ZoomTests-Info.plist"; sourceTree = "<group>"; };
+		920F8456192197980076BF72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		920F8458192197980076BF72 /* Tap_Tap_To_ZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_Tap_To_ZoomTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920F8428192197980076BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F842F192197980076BF72 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920F8449192197980076BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F844F192197980076BF72 /* Cocoa.framework in Frameworks */,
+				920F844E192197980076BF72 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920F8422192197980076BF72 = {
+			isa = PBXGroup;
+			children = (
+				920F8434192197980076BF72 /* Tap Tap To Zoom */,
+				920F8452192197980076BF72 /* Tap Tap To ZoomTests */,
+				920F842D192197980076BF72 /* Frameworks */,
+				920F842C192197980076BF72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920F842C192197980076BF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920F842B192197980076BF72 /* Tap Tap To Zoom.app */,
+				920F844C192197980076BF72 /* Tap Tap To ZoomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920F842D192197980076BF72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920F842E192197980076BF72 /* Cocoa.framework */,
+				920F844D192197980076BF72 /* XCTest.framework */,
+				920F8430192197980076BF72 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920F8430192197980076BF72 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920F8431192197980076BF72 /* AppKit.framework */,
+				920F8432192197980076BF72 /* CoreData.framework */,
+				920F8433192197980076BF72 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		920F8434192197980076BF72 /* Tap Tap To Zoom */ = {
+			isa = PBXGroup;
+			children = (
+				920F8440192197980076BF72 /* A5005AppDelegate.h */,
+				920F8441192197980076BF72 /* A5005AppDelegate.m */,
+				920F8443192197980076BF72 /* MainMenu.xib */,
+				920F8446192197980076BF72 /* Images.xcassets */,
+				920F8435192197980076BF72 /* Supporting Files */,
+			);
+			path = "Tap Tap To Zoom";
+			sourceTree = "<group>";
+		};
+		920F8435192197980076BF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920F8436192197980076BF72 /* Tap Tap To Zoom-Info.plist */,
+				920F8437192197980076BF72 /* InfoPlist.strings */,
+				920F843A192197980076BF72 /* main.m */,
+				920F843C192197980076BF72 /* Tap Tap To Zoom-Prefix.pch */,
+				920F843D192197980076BF72 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		920F8452192197980076BF72 /* Tap Tap To ZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				920F8458192197980076BF72 /* Tap_Tap_To_ZoomTests.m */,
+				920F8453192197980076BF72 /* Supporting Files */,
+			);
+			path = "Tap Tap To ZoomTests";
+			sourceTree = "<group>";
+		};
+		920F8453192197980076BF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920F8454192197980076BF72 /* Tap Tap To ZoomTests-Info.plist */,
+				920F8455192197980076BF72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920F842A192197980076BF72 /* Tap Tap To Zoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920F845C192197990076BF72 /* Build configuration list for PBXNativeTarget "Tap Tap To Zoom" */;
+			buildPhases = (
+				920F8427192197980076BF72 /* Sources */,
+				920F8428192197980076BF72 /* Frameworks */,
+				920F8429192197980076BF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Tap To Zoom";
+			productName = "Tap Tap To Zoom";
+			productReference = 920F842B192197980076BF72 /* Tap Tap To Zoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		920F844B192197980076BF72 /* Tap Tap To ZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920F845F192197990076BF72 /* Build configuration list for PBXNativeTarget "Tap Tap To ZoomTests" */;
+			buildPhases = (
+				920F8448192197980076BF72 /* Sources */,
+				920F8449192197980076BF72 /* Frameworks */,
+				920F844A192197980076BF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920F8451192197980076BF72 /* PBXTargetDependency */,
+			);
+			name = "Tap Tap To ZoomTests";
+			productName = "Tap Tap To ZoomTests";
+			productReference = 920F844C192197980076BF72 /* Tap Tap To ZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920F8423192197980076BF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = A5005;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = anli5005;
+				TargetAttributes = {
+					920F844B192197980076BF72 = {
+						TestTargetID = 920F842A192197980076BF72;
+					};
+				};
+			};
+			buildConfigurationList = 920F8426192197980076BF72 /* Build configuration list for PBXProject "Tap Tap To Zoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920F8422192197980076BF72;
+			productRefGroup = 920F842C192197980076BF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920F842A192197980076BF72 /* Tap Tap To Zoom */,
+				920F844B192197980076BF72 /* Tap Tap To ZoomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920F8429192197980076BF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F8439192197980076BF72 /* InfoPlist.strings in Resources */,
+				920F8447192197980076BF72 /* Images.xcassets in Resources */,
+				920F843F192197980076BF72 /* Credits.rtf in Resources */,
+				920F8445192197980076BF72 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920F844A192197980076BF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F8457192197980076BF72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920F8427192197980076BF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F8442192197980076BF72 /* A5005AppDelegate.m in Sources */,
+				920F843B192197980076BF72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920F8448192197980076BF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F8459192197980076BF72 /* Tap_Tap_To_ZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920F8451192197980076BF72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920F842A192197980076BF72 /* Tap Tap To Zoom */;
+			targetProxy = 920F8450192197980076BF72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		920F8437192197980076BF72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920F8438192197980076BF72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		920F843D192197980076BF72 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920F843E192197980076BF72 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		920F8443192197980076BF72 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920F8444192197980076BF72 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		920F8455192197980076BF72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920F8456192197980076BF72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920F845A192197990076BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		920F845B192197990076BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		920F845D192197990076BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Tap To Zoom/Tap Tap To Zoom-Prefix.pch";
+				INFOPLIST_FILE = "Tap Tap To Zoom/Tap Tap To Zoom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		920F845E192197990076BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Tap To Zoom/Tap Tap To Zoom-Prefix.pch";
+				INFOPLIST_FILE = "Tap Tap To Zoom/Tap Tap To Zoom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		920F8460192197990076BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tap Tap To Zoom.app/Contents/MacOS/Tap Tap To Zoom";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Tap To Zoom/Tap Tap To Zoom-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tap Tap To ZoomTests/Tap Tap To ZoomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		920F8461192197990076BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tap Tap To Zoom.app/Contents/MacOS/Tap Tap To Zoom";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Tap To Zoom/Tap Tap To Zoom-Prefix.pch";
+				INFOPLIST_FILE = "Tap Tap To ZoomTests/Tap Tap To ZoomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920F8426192197980076BF72 /* Build configuration list for PBXProject "Tap Tap To Zoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920F845A192197990076BF72 /* Debug */,
+				920F845B192197990076BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920F845C192197990076BF72 /* Build configuration list for PBXNativeTarget "Tap Tap To Zoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920F845D192197990076BF72 /* Debug */,
+				920F845E192197990076BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		920F845F192197990076BF72 /* Build configuration list for PBXNativeTarget "Tap Tap To ZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920F8460192197990076BF72 /* Debug */,
+				920F8461192197990076BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920F8423192197980076BF72 /* Project object */;
+}
