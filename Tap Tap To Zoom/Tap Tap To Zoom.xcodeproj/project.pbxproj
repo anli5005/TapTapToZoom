@@ -18,6 +18,9 @@
 		920F844F192197980076BF72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920F842E192197980076BF72 /* Cocoa.framework */; };
 		920F8457192197980076BF72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920F8455192197980076BF72 /* InfoPlist.strings */; };
 		920F8459192197980076BF72 /* Tap_Tap_To_ZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F8458192197980076BF72 /* Tap_Tap_To_ZoomTests.m */; };
+		928752ED19298AEA00A663F3 /* A5005TapTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928752EC19298AEA00A663F3 /* A5005TapTapView.m */; };
+		928752F019298B2200A663F3 /* A5005TapTapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 928752EF19298B2200A663F3 /* A5005TapTapLayer.m */; };
+		928752F5192994DC00A663F3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928752F4192994DC00A663F3 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		920F8454192197980076BF72 /* Tap Tap To ZoomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap Tap To ZoomTests-Info.plist"; sourceTree = "<group>"; };
 		920F8456192197980076BF72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		920F8458192197980076BF72 /* Tap_Tap_To_ZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_Tap_To_ZoomTests.m; sourceTree = "<group>"; };
+		928752EB19298AEA00A663F3 /* A5005TapTapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A5005TapTapView.h; sourceTree = "<group>"; };
+		928752EC19298AEA00A663F3 /* A5005TapTapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A5005TapTapView.m; sourceTree = "<group>"; };
+		928752EE19298B2200A663F3 /* A5005TapTapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A5005TapTapLayer.h; sourceTree = "<group>"; };
+		928752EF19298B2200A663F3 /* A5005TapTapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A5005TapTapLayer.m; sourceTree = "<group>"; };
+		928752F4192994DC00A663F3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928752F5192994DC00A663F3 /* CoreText.framework in Frameworks */,
 				920F842F192197980076BF72 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +104,7 @@
 		920F842D192197980076BF72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				928752F4192994DC00A663F3 /* CoreText.framework */,
 				920F842E192197980076BF72 /* Cocoa.framework */,
 				920F844D192197980076BF72 /* XCTest.framework */,
 				920F8430192197980076BF72 /* Other Frameworks */,
@@ -118,6 +128,10 @@
 				920F8440192197980076BF72 /* A5005AppDelegate.h */,
 				920F8441192197980076BF72 /* A5005AppDelegate.m */,
 				920F8443192197980076BF72 /* MainMenu.xib */,
+				928752EB19298AEA00A663F3 /* A5005TapTapView.h */,
+				928752EC19298AEA00A663F3 /* A5005TapTapView.m */,
+				928752EE19298B2200A663F3 /* A5005TapTapLayer.h */,
+				928752EF19298B2200A663F3 /* A5005TapTapLayer.m */,
 				920F8446192197980076BF72 /* Images.xcassets */,
 				920F8435192197980076BF72 /* Supporting Files */,
 			);
@@ -255,6 +269,8 @@
 			files = (
 				920F8442192197980076BF72 /* A5005AppDelegate.m in Sources */,
 				920F843B192197980076BF72 /* main.m in Sources */,
+				928752ED19298AEA00A663F3 /* A5005TapTapView.m in Sources */,
+				928752F019298B2200A663F3 /* A5005TapTapLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +483,7 @@
 				920F845E192197990076BF72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		920F845F192197990076BF72 /* Build configuration list for PBXNativeTarget "Tap Tap To ZoomTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +492,7 @@
 				920F8461192197990076BF72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
